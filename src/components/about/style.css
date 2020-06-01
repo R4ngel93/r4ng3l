@@ -1,0 +1,36 @@
+/* About styles */
+
+/* About width */
+#about{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+#about-container{
+  width: 50vw;
+}
+
+@media only screen and (max-width: 812px) {
+  #about-container {
+    width: 90vw;
+  }
+}
+
+/* Title */
+#about-title{
+  color: white;
+  font-family: 'Armata', sans-serif;
+  text-align: center;
+}
+
+/* About content */
+#about-content{
+  color: white;
+}
+
+.card-bg{
+  background-color: var(--dark-bg-color);
+}

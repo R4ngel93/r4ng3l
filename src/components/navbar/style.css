@@ -1,0 +1,43 @@
+/* Navbar styles */
+
+/* Background color */
+#navbar,
+#text-brand,
+.nav-links,
+span,
+.svg-nav,
+#responsive-navbar-nav {
+  background-color: var(--navbar-bg-color);
+}
+
+/* Font style */
+#navbar {
+  font-family: 'Armata', sans-serif;
+  /* font-family: 'Major Mono Display', monospace; */
+}
+#text-brand{
+  font-family: 'Major Mono Display', monospace;
+}
+
+/* Icon */
+#icon {
+  margin: 0 0.4em 0 0;
+}
+
+/* Links style */
+span {
+  color: var(--blue-primary);
+  visibility: hidden;
+}
+
+.nav-links:hover span {
+  visibility: visible;
+}
+
+#nav-brand:hover{
+  color: var(--blue-primary);
+}
+
+.nav-links:active span, #nav-brand:active{
+  color: var(--green-success);
+}

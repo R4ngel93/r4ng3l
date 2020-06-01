@@ -1,0 +1,50 @@
+/* Contact styles */
+
+/* Contact width */
+#contact{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+#contact-container{
+  width: 100vw;
+}
+
+/* Contact title */
+  #contact-title{
+    color: white;
+    font-family: 'Armata', sans-serif;
+    text-align: center;
+  }
+/* contact subtitle */
+#contact-subtitle{
+  color: var(--blue-primary);
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+}
+
+/* Email icon */
+#contact-email{
+    color: white;
+    font-family: 'Armata', sans-serif;
+    text-align: center;
+    font-size: small;
+}
+
+/* Contact buttons */
+#contact-buttons{
+    text-align: center;
+    margin-top: 1em;
+}
+
+.btn-circle{
+  border-radius: 50%;
+  text-align: center;
+}
+
+.contact-icon{
+  background-color: transparent;
+}

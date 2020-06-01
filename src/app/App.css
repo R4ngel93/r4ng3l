@@ -1,0 +1,22 @@
+:root{
+  --dark-bg-color: #282c34;
+  --navbar-bg-color: #383c46;
+  --blue-primary: #2196f3;
+  --green-success: #69f0ae;
+}
+* {
+  background-color: var(--dark-bg-color);
+}
+
+/* Google fonts */
+@font-face {
+  font-family: 'Armata';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Armata Regular'), local('Armata-Regular'), url(https://fonts.gstatic.com/s/armata/v11/gokvH63_HV5jQ-E9lA.ttf) format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+

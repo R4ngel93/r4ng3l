@@ -1,0 +1,73 @@
+/* Work styles */
+
+/* Work width */
+#work{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+#work-container{
+  width: 90vw;
+}
+
+/* Title */
+#work-title{
+  color: white;
+  font-family: 'Armata', sans-serif;
+  text-align: center;
+}
+
+/* Work content */
+#work-content{
+  color: white;
+}
+
+
+/* Card styles */
+
+/* Card bg */
+.card-header, .card-body, .card-text, .card-footer{
+  background-color:var(--navbar-bg-color);
+}
+
+/* Button */
+.card-btn{
+  display: block;
+  margin: auto;
+  
+  width: 5em;
+}
+
+.btn-ico{
+  background-color: transparent;
+  font-weight: bolder;
+}
+
+/* Font */
+.card-header, .card-body, .card-text{
+  font-family: 'Armata', sans-serif;
+}
+
+.card-header{
+  font-size: small;
+}
+
+/* Card icon */
+.card-icon{
+  display: block;
+  font-size: 3em;
+  background-color: var(--navbar-bg-color);
+  margin-bottom: 0.1em;
+}
+
+@media only screen and (max-width: 641px) {
+   .card-icon {
+    font-size: 3em;
+  }
+  .card-header{
+    font-size: smaller;
+  }
+}

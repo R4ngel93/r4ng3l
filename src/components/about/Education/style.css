@@ -1,0 +1,58 @@
+/* About educaion styles */
+
+/* Background */
+.list-item, .fa, .link-name{
+  background-color: var(--navbar-bg-color);
+}
+
+/* Font */
+.list-item{
+  font-family: 'Armata', sans-serif;
+  font-size: 0.9em;
+  
+}
+
+.fa{
+  font-size: large;
+}
+
+@media only screen and (max-width: 640px) {
+  .list-item, .fa {
+    font-size: smaller;
+  }
+}
+
+/* Fucking alignment */
+.link-btn{
+  position: absolute;
+  right: 1em;
+  top: 0.5em;
+  bottom: 0.5em;
+  
+}
+.link-name{
+  display: inline;
+}
+
+/* Media queries */
+@media only screen and (max-width: 640px) {
+  .link-btn{
+    display: none;
+  }
+  
+  .link-name{
+    display: none;
+  }
+
+  .hidden-link{
+    visibility: visible;
+  }
+}
+
+@media only screen and (min-width: 641px) {
+
+  .hidden-link{
+    visibility: hidden;
+    display: none;
+  }
+}

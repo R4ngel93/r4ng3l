@@ -1,0 +1,23 @@
+/* Home styles */
+
+#home-container{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#me{
+  background-color: var(--dark-bg-color);
+}
+
+#home{
+  text-align: center;
+  color: white;
+  font-family: 'Armata', sans-serif;
+}
+
+#home-intro{
+  color: var(--blue-primary);
+  font-family: 'Poiret One', cursive;
+}

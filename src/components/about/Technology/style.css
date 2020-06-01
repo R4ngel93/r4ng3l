@@ -1,0 +1,36 @@
+/* About technology styles */
+
+/* Background */
+.tech-bg, .bi{
+  background-color: var(--navbar-bg-color);
+}
+
+/* Border */
+.tech-border{
+  border: none;
+}
+
+/* Font */
+.tech-title {
+  font-family: 'Armata', sans-serif;
+  font-size: 0.9em;
+}
+
+/* Icons */
+.tech-ico{
+  background-color: var(--navbar-bg-color);
+  margin-right: 0.5em;
+  font-size: 2em;
+}
+
+/* Media query */
+@media only screen and (max-width: 640px) {
+  .tech-title {
+    font-size: smaller;
+  }
+  .tech-ico{
+    font-size: 1.2em;
+  }
+}
+
+
